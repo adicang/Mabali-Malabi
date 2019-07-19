@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+font-size: 1rem;
+}
+
+.myNav {
+    background-color: #D72261;
+}
+
+
+nav {
+  width: 100%;
+  margin: 0;
+    background-color: #D72261;
+        position: fixed;
+    z-index: 99999;
+   
+}
+
+nav ul {
+  
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: right;
+}
+
+ul.topnav li.topnav-left {
+  float: left;
+  margin: 0;
+    padding: 0;
+}
+
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+    font-weight: 400;
+  color: white;
+    margin: 10px;
+}
+
+ul.topnav li a:hover {
+   
+ color: #c2c2d6;
+}
+
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+
+ul.topnav li a.brand-icon {
+padding: 0;
+}
+
+.sectionLight {
+  background-color: #eceeef;
+  padding: 2rem;
+}
+
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2rem;
+}
+
+img.img-cover {
+width: 100%;
+}
+
+img.event-img {
+    border-radius: 35px;
+    -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+      margin: auto;
+    display: block;
+}
+
+img.facebook-icon, img.instagram-icon {
+    padding: 10px;
+}
+
+img.event-img:hover, img.instagram-icon:hover, img.facebook-icon:hover, img.icon-with-phone:hover {
+   opacity: 0.5;
+}
+
+video#my-video:hover {
+   opacity: 0.5;
+}
+
+video#my-video {
+   border-radius: 80px;
+    margin: auto;
+    display: block;
+    
+}
+
+div.icons-wrapper {
+    margin: auto;
+    width: fit-content;
+}
+
+.row{
+padding-bottom: 10px;
+
+}
+.btnWrapper {
+  margin-top: 20px;
+}
+
+button.myBtn {
+  background-color: #D72261;
+  background-color: #D72261;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+button.myBtn:hover {
+ color: #c2c2d6;
+}
+
+h1.header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+        margin-top: 20px;
+    padding-top: 20px;
+}
+
+h5.modal-title {
+  margin: auto;
+}
+
+.modalFormWrapper {
+  padding: 2rem;
+}
+
+.imgCenter {
+  display: block;
+  margin: auto;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 54%;
+    
+}
+
+.carousel {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 20px white solid;
+    max-width: 100%;
+}
+
+label.form-control-label{
+text-align: right;
+    float: right;
+}
+
+.jumbotron{
+    background: none;
+}
+
+footer {
+  padding: 15px;
+}
+
+
+
+.socialWrapper {
+  margin: auto;
+}
+
+
+p.about-text {
+    text-align: center;
+    font-size: 22px;
+}
+
+span.final-text{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+span#contactApproved {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+    display: none; 
+}
+
+span#formError {
+color: red;
+}
+
+.scrollToTop {
+  margin: 0 30px 20px 0;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.scrollToTop:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 576px)
+.jumbotron {
+    padding-top: 4rem;
+}
+
+
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(5)) {
+    display: none;
+  }
+  
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+  
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+    
+    ul.topnav.responsive li.topnav-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  ul.topnav.responsive {
+    position: relative;
+  }
+    
+ #first-item {
+margin-top: 60px;
+}
+  
+  ul.topnav.responsive li {
+    display: inline;
+    float: none; 
+position: relative;
+  }
+  
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: right;
+      margin-top: 10px;
+  }
+    
+    .carousel{
+        width: 400px;
+       height: fit-content;
+}
+}
+
